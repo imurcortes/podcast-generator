@@ -3,7 +3,7 @@ RUN apt-get update && apt-get install -y \
     python3.10 \
     python3-pip \
     git\
-    python3.10-venv
+    python3-venv
 
 
 RUN python3 -m venv /venv
